@@ -29,13 +29,11 @@ From the data shows the distribution of the analyzed data from the data file wat
 
 ## Principal Component Analysis (PCA)
 ![image](https://user-images.githubusercontent.com/46348831/128816016-eb511d93-bebc-4997-a6fc-9458e65d9f66.png)
-
+The results of the visualization of the data that have been used are then described into a 2D plot that will display the distribution of the data plot as shown in the figure. These results describe the results of the processed data and explain that the plot shows the purple color as potability 0 or undrinkable water and yellow as number 1, which is drinkable water from the analysis of the data from the table.
 ## Clustering
 * ### Check Using Elbow Method
 ![image](https://user-images.githubusercontent.com/46348831/128815623-bcf9c737-3add-48f5-a78f-8564cb903553.png)
-
+The results of the tests carried out using the Elbow Method provide an indication that the analysis from the 1 - 30 range illustrates that the 3rd point is the most optimal because it has an inertia drop value which has a stable value at its distance and is regular (does not have a distance range). far away). The claustering time on the graph also shows the calculated time of python with a stable rhythm.
 * ### Plot Using PCA Using the Best Cluster
 ![image](https://user-images.githubusercontent.com/46348831/128815810-848b33f9-2ac5-43af-bce3-1a67b57570db.png)
-
-## Summary
-* 
+The plot results explain that the level of data distribution from the PCA visualization results has a small data similarity so that it produces a plot like the picture because the data visualization results from the water_potability.csv table have numerical proximity.
